@@ -9,13 +9,12 @@ const generateOTP = () => {
 
 const sendOTPEmail = async (email, otp) => {
     const { data, error } = await resend.emails.send({
-        from: process.env.RESEND_FROM || "ShareNet <onboarding@resend.dev>",
-        to: [email],
-        subject: "ShareNet - Verify Your College Email",
+        from: process.env.RESEND_FROM || "Campus Connect <onboarding@resend.dev>",
+        subject: "Campus Connect - Verify Your College Email",
         html: `
             <div style="font-family: 'Segoe UI', Arial, sans-serif; max-width: 480px; margin: 0 auto; background: #ffffff; border-radius: 12px; overflow: hidden; border: 1px solid #e5e7eb;">
                 <div style="background: linear-gradient(135deg, #2563eb, #1e40af); padding: 32px; text-align: center;">
-                    <h1 style="color: #ffffff; margin: 0; font-size: 28px; font-weight: 700; letter-spacing: -0.5px;">ShareNet</h1>
+                    <h1 style="color: #ffffff; margin: 0; font-size: 28px; font-weight: 700; letter-spacing: -0.5px;">Campus Connect</h1>
                     <p style="color: #bfdbfe; margin: 8px 0 0; font-size: 14px;">Campus Sharing Network</p>
                 </div>
                 <div style="padding: 32px;">
@@ -32,7 +31,7 @@ const sendOTPEmail = async (email, otp) => {
                 </div>
                 <div style="background: #f9fafb; padding: 16px; text-align: center; border-top: 1px solid #e5e7eb;">
                     <p style="color: #9ca3af; margin: 0; font-size: 12px;">
-                        &copy; ${new Date().getFullYear()} ShareNet. If you didn't request this, please ignore this email.
+                        &copy; ${new Date().getFullYear()} Campus Connect. If you didn't request this, please ignore this email.
                     </p>
                 </div>
             </div>

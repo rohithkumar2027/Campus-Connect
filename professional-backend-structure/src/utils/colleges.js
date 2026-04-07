@@ -102,7 +102,7 @@ const COLLEGES = [
     { name: "Presidency University", domain: "presidencyuniversity.in" },
 
     // Demo / Testing
-    { name: "ShareNet Demo College", domain: "gmail.com", isDemo: true },
+    { name: "Campus Connect Demo College", domain: "gmail.com", isDemo: true },
 ];
 
 const VALID_EDUCATIONAL_SUFFIXES = [".edu", ".ac.in", ".edu.in"];

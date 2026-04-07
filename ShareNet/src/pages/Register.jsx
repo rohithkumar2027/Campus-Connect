@@ -265,7 +265,7 @@ export default function Register() {
                                 <p className="text-amber-700">
                                     Use your .edu / .ac.in / .edu.in address. If your college isn't listed,{' '}
                                     <a
-                                        href="https://github.com/Pranilash/ShareNet-Web/issues"
+                                        href="https://github.com/Pranilash/Campus-Connect-Web/issues"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="text-blue-600 hover:underline font-medium"

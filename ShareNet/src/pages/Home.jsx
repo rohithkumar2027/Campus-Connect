@@ -191,7 +191,7 @@ export default function Home() {
                         Campus Connect is open source. Help us build a better campus sharing experience.
                     </p>
                     <a
-                        href="https://github.com/Pranilash/ShareNet-Web"
+                        href="https://github.com/Pranilash/Campus-Connect-Web"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 px-6 py-3 bg-gray-900 text-white rounded-full font-medium hover:bg-gray-800 transition-colors"

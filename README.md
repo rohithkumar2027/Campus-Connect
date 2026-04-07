@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="ShareNet/public/favicon.svg" alt="ShareNet" width="80" />
+  <img src="Campus Connect/public/favicon.svg" alt="Campus Connect" width="80" />
 </p>
 
-<h1 align="center">ShareNet</h1>
+<h1 align="center">Campus Connect</h1>
 
 <p align="center">
   <strong>ML-Powered Campus Sharing Economy Platform</strong><br/>
@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://sharenet-web-1.onrender.com"><img src="https://img.shields.io/badge/🚀_LIVE_DEMO-sharenet--web--1.onrender.com-7c3aed?style=for-the-badge" alt="Live Demo" /></a>
+  <a href="https://campus-connect-web-1.onrender.com"><img src="https://img.shields.io/badge/🚀_LIVE_DEMO-campus-connect--web--1.onrender.com-7c3aed?style=for-the-badge" alt="Live Demo" /></a>
 </p>
 
 <p align="center">
@@ -27,7 +27,7 @@
 
 ## 🔗 Live Demo & Access
 
-> **Live App:** [https://sharenet-web-1.onrender.com](https://sharenet-web-1.onrender.com)
+> **Live App:** [https://campus-connect-web-1.onrender.com](https://campus-connect-web-1.onrender.com)
 
 > **Note for Judges & Evaluators:** Gmail (`@gmail.com`) sign-up is temporarily enabled for evaluation and testing purposes. This allows judges to register and explore the full platform without needing a `.edu` or `.ac.in` email. This access will be disabled after the evaluation period. In production, only verified college email domains are permitted.
 
@@ -46,19 +46,19 @@ Every semester across Indian and global campuses:
 
 ## Our Solution
 
-**ShareNet** transforms every campus into a self-sustaining circular economy. It combines a **three-mode marketplace**, a **verified lost & found system**, a **community wanted board**, and **ML-powered recommendations** — all scoped by college domain and backed by a behavioral trust engine.
+**Campus Connect** transforms every campus into a self-sustaining circular economy. It combines a **three-mode marketplace**, a **verified lost & found system**, a **community wanted board**, and **ML-powered recommendations** — all scoped by college domain and backed by a behavioral trust engine.
 
-Unlike generic platforms, ShareNet enforces trust at the **infrastructure level**: OTP-verified campus emails, domain-scoped item visibility, behavioral trust scores, and structured transaction lifecycles with dispute resolution.
+Unlike generic platforms, Campus Connect enforces trust at the **infrastructure level**: OTP-verified campus emails, domain-scoped item visibility, behavioral trust scores, and structured transaction lifecycles with dispute resolution.
 
 ---
 
 ## One Platform, Every Campus — Fully Isolated
 
-ShareNet is not a single shared marketplace. It is a **multi-tenant platform where every college operates as an independent, isolated ecosystem** — all from a single deployment.
+Campus Connect is not a single shared marketplace. It is a **multi-tenant platform where every college operates as an independent, isolated ecosystem** — all from a single deployment.
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                     ShareNet (Single Deployment)                │
+│                     Campus Connect (Single Deployment)                │
 │                                                                 │
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐              │
 │  │  IIIT       │  │  IIT        │  │  NIT        │   ...100+    │
@@ -86,7 +86,7 @@ ShareNet is not a single shared marketplace. It is a **multi-tenant platform whe
 
 **Why this matters:** A student at IIIT Lucknow sees only items, lost posts, and wanted requests from IIIT Lucknow. This keeps the experience hyperlocal, relevant, and trustworthy — exactly how a campus community should work. And yet, the entire system runs on a single deployment, making it operationally simple and cost-effective to scale to hundreds of colleges.
 
-> **100+ Indian college domains supported out of the box** — IIITs, IITs, NITs, and more. New domains are auto-detected or can be added via [GitHub Issues](https://github.com/Pranilash/ShareNet-Web/issues).
+> **100+ Indian college domains supported out of the box** — IIITs, IITs, NITs, and more. New domains are auto-detected or can be added via [GitHub Issues](https://github.com/Pranilash/Campus Connect-Web/issues).
 
 ---
 
@@ -111,7 +111,7 @@ ShareNet is not a single shared marketplace. It is a **multi-tenant platform whe
 
 ### 1. ML-Powered Recommendation Engine
 
-ShareNet's recommendation system goes beyond simple filtering. It implements a **multi-signal scoring model** that learns from user behavior:
+Campus Connect's recommendation system goes beyond simple filtering. It implements a **multi-signal scoring model** that learns from user behavior:
 
 ```
 Score = CategoryAffinity(3) + TrustSignal(1) + ModeRelevance(1) + RecencyBoost(2)
@@ -148,7 +148,7 @@ Every item listing supports one of three modes:
 
 ### 3. Lost & Found with Multi-Step Verification
 
-This isn't a simple "post and hope" system. ShareNet implements a **structured verification pipeline**:
+This isn't a simple "post and hope" system. Campus Connect implements a **structured verification pipeline**:
 
 ```
 Report → Claim Submitted → Verification Questions Sent → Answers Reviewed
@@ -160,7 +160,7 @@ Report → Claim Submitted → Verification Questions Sent → Answers Reviewed
 - **Dedicated Chat:** Once verified, a rich chat channel opens with image sharing, GPS location, and meetup proposals.
 - **Resolution Tracking:** Posts are marked as resolved, providing campus-wide recovery statistics.
 
-**Why this matters:** On most campuses, lost items are posted in WhatsApp groups with zero verification. Anyone can claim anything. ShareNet adds accountability.
+**Why this matters:** On most campuses, lost items are posted in WhatsApp groups with zero verification. Anyone can claim anything. Campus Connect adds accountability.
 
 ---
 
@@ -181,7 +181,7 @@ A reverse-marketplace where **demand creates supply**:
 
 ### 5. Event-Driven Real-Time Architecture
 
-ShareNet uses **Socket.IO** for a fully event-driven real-time layer:
+Campus Connect uses **Socket.IO** for a fully event-driven real-time layer:
 
 | Feature | Implementation |
 |---------|---------------|
@@ -232,7 +232,7 @@ REQUESTED → ACCEPTED → AGREEMENT_PROPOSED → ACTIVE → RETURN_PENDING → 
 | **Overdue Alerts** | Automatic notifications if return date passes |
 | **Dispute Flow** | Either party can raise a dispute with explanation |
 
-**Why this matters:** Unstructured sharing (WhatsApp, word of mouth) has no accountability. ShareNet's lifecycle creates a paper trail that protects both parties.
+**Why this matters:** Unstructured sharing (WhatsApp, word of mouth) has no accountability. Campus Connect's lifecycle creates a paper trail that protects both parties.
 
 ---
 
@@ -245,7 +245,7 @@ Enter Email → Detect College Domain → Send 6-Digit OTP (Resend API) → Veri
 - Supports **100+ Indian college domains** (IIITs, IITs, NITs, and more)
 - Dynamically detects valid `.edu` / `.ac.in` / `.edu.in` patterns
 - Items are automatically scoped to the user's `collegeDomain` — students only see items from their own campus
-- New colleges can be added via [GitHub Issues](https://github.com/Pranilash/ShareNet-Web/issues)
+- New colleges can be added via [GitHub Issues](https://github.com/Pranilash/Campus Connect-Web/issues)
 
 ---
 
@@ -276,8 +276,8 @@ Enter Email → Detect College Domain → Send 6-Digit OTP (Resend API) → Veri
 ## Project Structure
 
 ```
-ShareNet-Web/
-├── ShareNet/                          # Frontend (React + Vite)
+Campus Connect-Web/
+├── Campus Connect/                          # Frontend (React + Vite)
 │   ├── src/
 │   │   ├── components/
 │   │   │   ├── ui/                    # Design system: Button, Card, Modal, Badge, Avatar, TrustScore, Loader
@@ -352,9 +352,9 @@ ShareNet-Web/
 
 ---
 
-## What Sets ShareNet Apart
+## What Sets Campus Connect Apart
 
-| Dimension | ShareNet | Generic Marketplaces |
+| Dimension | Campus Connect | Generic Marketplaces |
 |-----------|----------|---------------------|
 | **Identity** | OTP-verified college email; campus-scoped | Open registration; no verification |
 | **Discovery** | ML-powered personalized recommendations | Basic keyword search |
@@ -392,7 +392,7 @@ npm run dev              # Runs on http://localhost:8000
 ### Frontend
 
 ```bash
-cd ShareNet
+cd Campus Connect
 npm install
 cp .env.example .env    # Set VITE_API_URL=http://localhost:8000/api/v1
 npm run dev              # Runs on http://localhost:5173
@@ -402,7 +402,7 @@ npm run dev              # Runs on http://localhost:5173
 
 ## Contributing
 
-ShareNet is open source. We welcome contributions from the community.
+Campus Connect is open source. We welcome contributions from the community.
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/your-feature`)
@@ -410,7 +410,7 @@ ShareNet is open source. We welcome contributions from the community.
 4. Push to branch (`git push origin feature/your-feature`)
 5. Open a Pull Request
 
-Have a college that's not supported? [Open an issue](https://github.com/Pranilash/ShareNet-Web/issues) and we'll add the domain.
+Have a college that's not supported? [Open an issue](https://github.com/Pranilash/Campus Connect-Web/issues) and we'll add the domain.
 
 ---
 

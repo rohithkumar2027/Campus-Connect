@@ -1,7 +1,7 @@
 {
-  "name": "sharenet-backend",
+  "name": "campus-connect-backend",
   "version": "1.0.0",
-  "description": "ShareNet Campus Sharing Platform - Backend API",
+  "description": "Campus Connect Campus Sharing Platform - Backend API",
   "main": "src/index.js",
   "type": "module",
   "scripts": {

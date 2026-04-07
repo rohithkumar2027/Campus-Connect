@@ -94,7 +94,7 @@ export default function HowToUse() {
                     <Link to="/" className="inline-flex items-center gap-1 text-white/50 hover:text-white/80 text-sm mb-8 transition-colors">
                         <ArrowLeft size={14} /> Back to Home
                     </Link>
-                    <h1 className="text-4xl md:text-5xl font-semibold mb-4 tracking-tight">How to Use ShareNet</h1>
+                    <h1 className="text-4xl md:text-5xl font-semibold mb-4 tracking-tight">How to Use Campus Connect</h1>
                     <p className="text-base text-white/60 max-w-xl mx-auto leading-relaxed">
                         Your complete guide to sharing, finding, and connecting on campus.
                     </p>
@@ -389,7 +389,7 @@ export default function HowToUse() {
 
             {/* ===== TIPS ===== */}
             <section id="tips" className="scroll-mt-20 mb-20">
-                <SectionHeader icon={Star} title="Tips & Best Practices" description="Make the most of ShareNet" />
+                <SectionHeader icon={Star} title="Tips & Best Practices" description="Make the most of Campus Connect" />
 
                 <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
                     {[
