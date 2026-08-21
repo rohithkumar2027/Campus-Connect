@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="Campus Connect/public/favicon.svg" alt="Campus Connect" width="80" />
-</p>
-
 <h1 align="center">Campus Connect</h1>
 
 <p align="center">
