@@ -6,10 +6,6 @@
 </p>
 
 <p align="center">
-  <a href="https://campus-connect-web-1.onrender.com"><img src="https://img.shields.io/badge/🚀_LIVE_DEMO-campus-connect--web--1.onrender.com-7c3aed?style=for-the-badge" alt="Live Demo" /></a>
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white" alt="React" />
   <img src="https://img.shields.io/badge/Node.js-Express-339933?logo=node.js&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/MongoDB-Mongoose-47A248?logo=mongodb&logoColor=white" alt="MongoDB" />
