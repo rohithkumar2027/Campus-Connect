@@ -10,6 +10,7 @@ const generateOTP = () => {
 const sendOTPEmail = async (email, otp) => {
     const { data, error } = await resend.emails.send({
         from: process.env.RESEND_FROM || "Campus Connect <onboarding@resend.dev>",
+        to: email,
         subject: "Campus Connect - Verify Your College Email",
         html: `
             <div style="font-family: 'Segoe UI', Arial, sans-serif; max-width: 480px; margin: 0 auto; background: #ffffff; border-radius: 12px; overflow: hidden; border: 1px solid #e5e7eb;">
